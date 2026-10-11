@@ -21,11 +21,11 @@ importers:
         specifier: ^5.3.0
         version: 5.3.0
       '@loompay/loomgate-js-sdk':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.3.0
+        version: 0.3.0
       '@loompay/loomgate-react-sdk':
-        specifier: ^0.2.0
-        version: 0.2.0(react@19.3.0)
+        specifier: ^0.3.0
+        version: 0.3.0(react@19.3.0)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -94,8 +94,8 @@ importers:
   examples/js:
     dependencies:
       '@loompay/loomgate-js-sdk':
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.3.0
+        version: 0.3.0
       hono:
         specifier: ^4.13.12
         version: 4.13.12
@@ -122,8 +122,8 @@ importers:
   examples/js-cdn:
     dependencies:
       '@loompay/loomgate-js-sdk':
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.3.0
+        version: 0.3.0
       hono:
         specifier: ^4.13.12
         version: 4.13.12
@@ -144,8 +144,8 @@ importers:
   examples/js-umd:
     dependencies:
       '@loompay/loomgate-js-sdk':
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.3.0
+        version: 0.3.0
       hono:
         specifier: ^4.13.12
         version: 4.13.12
@@ -172,11 +172,11 @@ importers:
         specifier: ^5.3.0
         version: 5.3.0
       '@loompay/loomgate-js-sdk':
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.3.0
+        version: 0.3.0
       '@loompay/loomgate-react-sdk':
-        specifier: ^0.1.0
-        version: 0.1.0(react@19.3.0)
+        specifier: ^0.3.0
+        version: 0.3.0(react@19.3.0)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -886,21 +886,12 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@loompay/loomgate-js-sdk@0.1.0':
-    resolution: {integrity: sha512-zl6WKvEi08VwD9gzlvgwBynGvusYLlgfULfoObOCuWnlUPL7fUvKh4YGoV13Ga25T8RfghMCXR+5WC3oAvOR+w==}
+  '@loompay/loomgate-js-sdk@0.3.0':
+    resolution: {integrity: sha512-TiPr98jdn6cCn3A9YReiFEBpjXWxoEf9JskyFsk3cjE3WgyjodFwGNYujZsJOfU4iBPuu+a6hlATvk0S1ag3oA==}
     engines: {node: '>=18'}
 
-  '@loompay/loomgate-js-sdk@0.2.0':
-    resolution: {integrity: sha512-uGBCw/L4cWr/NVTJdjWAD7FarvtSrPTuAET3bKxScjJPwiSSlo2vAD8uX6DIgOyUyf4IrkcbPVAbGpXMFOayyg==}
-    engines: {node: '>=18'}
-
-  '@loompay/loomgate-react-sdk@0.1.0':
-    resolution: {integrity: sha512-3dWFSnFyL6haXIFoLyEnJKzaL3UlxmN6Dxf+asPtAuFlz+kxDE4ds2LzWHTja/quzuXHZ2vCL00sVINCD2mVFw==}
-    peerDependencies:
-      react: ^18.0.0 || ^19.0.0
-
-  '@loompay/loomgate-react-sdk@0.2.0':
-    resolution: {integrity: sha512-jQ20/cdUE7S3CDC6UWi+muE3TFgw5jTXUIRLqOKT4a6GmOU7Jm8gjgXKb0l7RyaHhttlWbZGHLQ/E3x9OAT3rg==}
+  '@loompay/loomgate-react-sdk@0.3.0':
+    resolution: {integrity: sha512-+520hYvhGeKhd+VYINZ+yFN6PIv51D6B//8cn9k7nipU7irbbkRhCVB1FbDTJeGKC2EF2P7Wpld8SOJDeVgjdA==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
 
@@ -3371,18 +3362,11 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.6.0
 
-  '@loompay/loomgate-js-sdk@0.1.0': {}
+  '@loompay/loomgate-js-sdk@0.3.0': {}
 
-  '@loompay/loomgate-js-sdk@0.2.0': {}
-
-  '@loompay/loomgate-react-sdk@0.1.0(react@19.3.0)':
+  '@loompay/loomgate-react-sdk@0.3.0(react@19.3.0)':
     dependencies:
-      '@loompay/loomgate-js-sdk': 0.1.0
-      react: 19.3.0
-
-  '@loompay/loomgate-react-sdk@0.2.0(react@19.3.0)':
-    dependencies:
-      '@loompay/loomgate-js-sdk': 0.2.0
+      '@loompay/loomgate-js-sdk': 0.3.0
       react: 19.3.0
 
   '@modelcontextprotocol/sdk@1.32.0(zod@3.25.76)':

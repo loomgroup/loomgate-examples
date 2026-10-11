@@ -13,7 +13,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@loompay/loomgate-js-sdk": "^0.1.0",
+    "@loompay/loomgate-js-sdk": "^0.3.0",
     "hono": "^4.13.12"
   },
   "devDependencies": {
